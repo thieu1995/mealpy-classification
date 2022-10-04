@@ -5,8 +5,8 @@
 # --------------------------------------------------%
 
 from sklearn.preprocessing import LabelEncoder
-from models.classification_svc import ClassificationSVC
-from models.utils import data_util
+from src.classification_svc import ClassificationSVC
+from src import data_util
 from mealpy.swarm_based import WOA
 from permetrics.classification import ClassificationMetric
 
